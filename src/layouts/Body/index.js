@@ -1,10 +1,10 @@
 import React from 'react';
-import Game from '../../components/Game'
+import  TicTacToe from "../../components/Container/TicTacToe"
 
 const Body = () => {
     return (
     <div className="body-container">
-        <Game />
+        <TicTacToe />
     </div>
     );
 };

@@ -33,16 +33,6 @@
   flex-wrap: wrap;
 }
 
-.table-game button {
-  width: 100px;
-  background-color: #000000;
-  color: #D7D7D7;
-  height: 100px;
-  border: 1.5px solid #FFFF;
-  font-size: 45px;
-  border-radius: 15px;
-}
-
 .reset-dialog {
   display: flex;
   flex-direction: column;
@@ -53,5 +43,44 @@
   border-radius: 15px;
   background-color: #000000;
   color: #D7D7D7;
+}
 
+.table-game button {
+  width: 100px;
+  /* background-color: #000000; */
+  background-color: #D7D7D7;
+  color: #000000;
+  height: 100px;
+  border: 1.5px solid #000000;
+  font-size: 45px;
+}
+
+.table-game button:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.table-game button:nth-of-type(2) {
+  border-top-color: transparent;
+}
+.table-game button:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+.table-game button:nth-of-type(4) {
+  border-left-color: transparent;
+}
+.table-game button:nth-of-type(6) {
+  border-right-color: transparent;
+}
+.table-game button:nth-of-type(7) {
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+.table-game button:nth-of-type(8) {
+  border-bottom-color: transparent;
+}
+.table-game button:nth-of-type(9) {
+  border-bottom-color: transparent;
+  border-right-color: transparent;
 }
